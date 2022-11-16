@@ -28,7 +28,7 @@ const CartSlice = createSlice({
             if (itemIndex >= 0) {
                 state.cartItems[itemIndex].cartQuantity += 1;
 
-                toast.success(`Item QTY Increased`);
+                toast.success(`Number of items increased`);
             } else {
                 const temp = { ...action.payload, cartQuantity: 1 };
                 state.cartItems.push(temp);
