@@ -23,7 +23,7 @@ const Footer = ({ footerAPI: { titles, links } }) => {
                 </div>
                 <div className='mt-5 text-center'>
                     <p className='inline cursor-pointer hover:scale-105 transition ease-in-out'><a href="#">Andrei Khrustikov. </a></p>
-                    <p className='font-bold hover:scale-105 text-slate-900 inline'>See this page on <a className='hover:scale-105' href="#"><img className='w-5 h-5 inline' src={githubIcon} /> github</a></p>
+                    <p className='font-bold hover:scale-105 text-slate-900 inline'>See this page on <a className='hover:scale-105' href="https://github.com/AndrewHelegson/sneackers-shop-redux-tailwind.git"><img className='w-5 h-5 inline' src={githubIcon} /> github</a></p>
                     {/* <p className='text-sm md:text-center font-bold hover:scale-105'> <a href="#">Andrei Khrustikov.</a> See this page on <a className='text-xl text-slate-900 font-bold cursor-pointer' href="#"><img
                         className='w-5 h-5 inline' src='https://cdn-icons-png.flaticon.com/512/3291/3291695.png'></img>Github</a></p> */}
                 </div>
