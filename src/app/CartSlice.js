@@ -58,7 +58,7 @@ const CartSlice = createSlice({
             if (itemIndex >= 0) {
                 state.cartItems[itemIndex].cartQuantity += 1;
 
-                toast.success(`Item QTY Increased`);
+                toast.success(`Number of items increased`);
             }
             localStorage.setItem("cart", JSON.stringify(state.cartItems));
         },
@@ -71,14 +71,14 @@ const CartSlice = createSlice({
             if (state.cartItems[itemIndex].cartQuantity > 1) {
                 state.cartItems[itemIndex].cartQuantity -= 1;
 
-                toast.success(`Item QTY Decreased`);
+                toast.success(`Number of items decreased`);
             }
             localStorage.setItem("cart", JSON.stringify(state.cartItems));
         },
 
         setClearCartItems: (state, action) => {
             state.cartItems = [];
-            toast.success(`Cart Cleared`);
+            toast.success(`Cart cleared`);
             localStorage.setItem("cart", JSON.stringify(state.cartItems));
         },
 
