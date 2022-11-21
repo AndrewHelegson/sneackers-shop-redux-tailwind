@@ -33,7 +33,7 @@ import youtube from "../assets/youtube.svg";
 import messenger from "../assets/messenger.svg";
 
 const heroapi = {
-    title: "Play With Electric Nike",
+    title: "Check that pair of Nikes",
     subtitle: "Adapt 2.0 Sneakers",
     img: heroimg,
     btntext: "Check it out",
@@ -62,8 +62,8 @@ const popularsales = {
             btn: "Buy Now",
             img: psale2,
             price: "200",
-            color: "from-blue-600 to-blue-500",
-            shadow: "shadow-lg shadow-blue-500",
+            color: "from-blue-100 to-blue-100",
+            shadow: "shadow-sm shadow-blue-100",
         },
         {
             id: "0p0x2",
@@ -73,8 +73,8 @@ const popularsales = {
             btn: "Buy Now",
             img: psale1,
             price: "200",
-            color: "from-red-500 to-rose-500",
-            shadow: "shadow-lg shadow-rose-500",
+            color: "from-red-100 to-rose-100",
+            shadow: "shadow-sm shadow-rose-100",
         },
         {
             id: "0p0x3",
@@ -84,8 +84,8 @@ const popularsales = {
             btn: "Buy Now",
             img: psale3,
             price: "200",
-            color: "from-violet-500 to-indigo-500",
-            shadow: "shadow-lg shadow-violet-500",
+            color: "from-violet-100 to-indigo-100",
+            shadow: "shadow-sm shadow-violet-100",
         },
     ],
 };
@@ -119,8 +119,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product7,
             price: "150",
-            color: "from-sky-600 to-indigo-600",
-            shadow: "shadow-lg shadow-blue-500",
+            color: "from-sky-100 to-indigo-100",
+            shadow: "shadow-sm shadow-blue-100",
         },
         {
             id: "0M0x2",
@@ -130,8 +130,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product2,
             price: "150",
-            color: "from-green-500 to-emerald-500",
-            shadow: "shadow-lg shadow-green-500",
+            color: "from-green-100 to-emerald-100",
+            shadow: "shadow-sm shadow-green-100",
         },
         {
             id: "0M0x3",
@@ -141,8 +141,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product3,
             price: "150",
-            color: "from-red-500 to-rose-500",
-            shadow: "shadow-lg shadow-rose-500",
+            color: "from-red-100 to-rose-100",
+            shadow: "shadow-sm shadow-rose-100",
         },
         {
             id: "0M0x4",
@@ -152,8 +152,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product4,
             price: "150",
-            color: "from-orange-500 to-amber-500",
-            shadow: "shadow-lg shadow-orange-500",
+            color: "from-orange-100 to-amber-5100",
+            shadow: "shadow-sm shadow-orange-100",
         },
         {
             id: "0M0x5",
@@ -163,8 +163,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product5,
             price: "150",
-            color: "from-gray-900 to-yellow-500",
-            shadow: "shadow-lg shadow-yellow-500",
+            color: "from-gray-100 to-yellow-100",
+            shadow: "shadow-sm shadow-yellow-100",
         },
         {
             id: "0M0x6",
@@ -174,8 +174,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product6,
             price: "150",
-            color: "from-blue-500 to-cyan-500",
-            shadow: "shadow-lg shadow-cyan-500",
+            color: "from-blue-100 to-cyan-100",
+            shadow: "shadow-sm shadow-cyan-100",
         },
         {
             id: "0M0x7",
@@ -185,8 +185,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product1,
             price: "150",
-            color: "from-yellow-500 to-yellow-500",
-            shadow: "shadow-lg shadow-yellow-500",
+            color: "from-yellow-100 to-yellow-100",
+            shadow: "shadow-sm shadow-yellow-100",
         },
         {
             id: "0M0x8",
@@ -196,8 +196,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product9,
             price: "150",
-            color: "from-[#936550] to-orange-900",
-            shadow: "shadow-lg shadow-orange-800",
+            color: "from-[#f7ab88] to-orange-100",
+            shadow: "shadow-sm shadow-orange-100",
         },
         {
             id: "0M0x9",
@@ -207,8 +207,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product10,
             price: "150",
-            color: "from-indigo-700 to-indigo-700",
-            shadow: "shadow-lg shadow-indigo-500",
+            color: "from-indigo-100 to-indigo-100",
+            shadow: "shadow-sm shadow-indigo-100",
         },
         {
             id: "0M0x10",
@@ -218,8 +218,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product12,
             price: "150",
-            color: "from-green-600 to-lime-500",
-            shadow: "shadow-lg shadow-lime-500",
+            color: "from-green-100 to-lime-100",
+            shadow: "shadow-sm shadow-lime-100",
         },
         {
             id: "0M0x11",
@@ -229,8 +229,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product11,
             price: "150",
-            color: "from-slate-900 to-black",
-            shadow: "shadow-lg shadow-black",
+            color: "from-slate-100 to-gray",
+            shadow: "shadow-sm shadow-slate-300",
         },
         {
             id: "0M0x12",
@@ -240,8 +240,8 @@ const toprateslaes = {
             btn: "Buy Now",
             img: product8,
             price: "150",
-            color: "from-blue-900 to-blue-500",
-            shadow: "shadow-lg shadow-blue-500",
+            color: "from-blue-100 to-blue-100",
+            shadow: "shadow-sm shadow-blue-100",
         },
     ],
 };

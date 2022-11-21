@@ -14,11 +14,14 @@ const Hero = ({ heroapi: { title, subtitle, btntext, img, sociallinks, videos } 
                         className='button-theme bg-slate-200 shadow-slate-200 rounded-xl my-5 '
                     >{btntext}</button>
                     <div className='grid items-center gap-5 md:gap-3 absolute top-[33vh] lg:top-[27vh] left-[11%] xl:left-0 w-auto h-auto' >{videos?.map((val, i) => (
-                        <Vid
-                            key={i}
-                            imgsrc={val.imgsrc}
-                            clip={val.clip}
-                        />
+                        <a key={i} href="https://www.youtube.com/watch?v=ANHLbtZkEP0"
+                            target="_blank">
+                            <Vid
+                                key={i}
+                                imgsrc={val.imgsrc}
+                                clip={val.clip}
+                            />
+                        </a>
                     ))}</div>
                     <div className='grid items-center absolute top-[33vh] lg:top-[27vh] right-0 gap-3'>
                         {sociallinks?.map((val, i) => (
